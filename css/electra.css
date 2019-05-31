@@ -65,3 +65,32 @@ html,body{
   overflow-y: auto;
   text-align: center;
 }
+
+a{
+  text-decoration: none;
+}
+
+.menu-header{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.menu-header ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-header a{
+  padding: .4em 1em;
+  margin: 0em 1em;
+  color: white;
+  transition: border 0.3s, color 0.3s;
+  font-weight: bold;
+}
+
+.menu-header a:hover {
+	color: #444;
+}
